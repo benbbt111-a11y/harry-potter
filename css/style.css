@@ -3,19 +3,24 @@
 
 body{
     background-color: rgb(0, 102, 255);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+header{
+    text-align: center;
+    background-color: rgba(170, 24, 24, 0.822);
+    padding: 25px;
+
 }
 
 html, body{
     margin: 0;
     padding: 0;
-}
-
-header{
-    text-align: center;
     background-color: maroon;
-    padding: 25px;
-
 }
+
+
 
 header img {
     width: 300px;
@@ -32,3 +37,26 @@ header h1{
     margin: 10px 0 20px;
     color:white;
 }
+
+main{
+    padding: 20px;
+    background-color: rgb(253, 176, 34);
+    border-radius: 15px;
+    width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    border: 20px solid maroon;
+}
+
+
+main img{ 
+    display: block;
+    margin: 20px auto;
+    width: 500px;
+    height: auto;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    border-style:solid;
+    border: 5px solid rgba(175, 23, 23, 0.726);
+    border-radius: 10px;
+}
+
