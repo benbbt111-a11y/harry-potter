@@ -60,3 +60,12 @@ main img{
     border-radius: 10px;
 }
 
+footer{
+    background-color: rgba(170, 24, 24, 0.822);
+}
+
+footer .content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+}
